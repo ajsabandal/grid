@@ -12,6 +12,8 @@
 /* IMPORT START */
 @import url('https://fonts.googleapis.com/css?family=Lobster');
 @import url('https://fonts.googleapis.com/css?family=Alegreya+SC');
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai');
+@import url('https://fonts.googleapis.com/css?family=Kurale');
 /* IMPORT END */
 
 /* BODY START */
@@ -19,6 +21,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #F5F5F5;
+
 }
 /* BODY END */
 
@@ -41,12 +44,18 @@ footer {
 /* MAIN START */
 main {
     display: grid;
-    grid-template-columns: 500px 500px;
+    grid-template-columns: 450px 450px;
     grid-template-rows: repeat(3, 450px);
-    grid-gap: 50px;
+    grid-gap: 200px;
     margin-top: 50px;
+    margin-bottom: 50px;
     grid-auto-rows: 500px;
     column: 250px;
+    justify-items: center;
+    justify-content: center;
+    align-items: stretch;
+    height: 1600px;
+    align-content: center;
   }
 /* MAIN END */
 
@@ -71,6 +80,18 @@ main {
 
 /* IMAGE END */
 
+/* Paragraph Start */
+.description {
+    font-family: 'Arima Madurai', cursive;
+    letter-spacing: 0.1px;
+    text-align: left;
+    padding: 10px 0px 10px 10px;
+    border-top: 1px solid #4a4a4a;
+  }
+  
+}
+/* Paragraph End */
+
 /* CONTAINER START */
 .container {
     min-width: 500px;
@@ -80,8 +101,9 @@ main {
 
 /* FOOTER START */
 footer {
-    font-family: 'Mirza', cursive;
-    padding: 10px;
+    font-family: 'Kurale', serif;
+    padding: 20px;
+    text-transform: uppercase;
 }
 /* FOOTER END */
   
