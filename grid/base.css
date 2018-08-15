@@ -1,10 +1,16 @@
 /*
 // COLOR PALETTES
-//  
-//
-//
-//
+// Dark blue: 	#00293c
+// Blue: #257985
+// Light Blue: #5ea8a7
+// White: #f0eff0
+// Pink: #ff4447
 */
+
+/* IMPORT START */
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Mirza');
+/* IMPORT END */
 
 /* BODY START */
 body {
@@ -14,11 +20,18 @@ body {
 /* BODY END */
 
 /* HEADER-FOOTER START */
+
+header {
+    font-size: 100px;
+    padding: 10px;
+}
 header, 
 footer {
-    background-color: pink;
+    background-color: #257985;
     text-align: center;
     min-width: 500px;
+    color: #f0eff0;
+    font-family: 'Lobster', cursive;
 }
 /* HEADER-FOOTER END */
 
@@ -31,12 +44,12 @@ main {
     margin-top: 44px;
     grid-auto-rows: 500px;
     column: 250px;
+    background-color: #5ea8a7;
   }
 /* MAIN END */
 
 /* H2 START */
   h2 {
-
     font-size: 18px;
     font-weight: 600;
     letter-spacing: 0.3px;
@@ -45,10 +58,25 @@ main {
   }
 /* H2 END */
 
+/* IMAGE START */
+img {
+   width: 100%;
+   height: auto;
+}
+
+/* IMAGE END */
+
 /* CONTAINER START */
 .container {
     min-width: 500px;
     margin: auto;
   }
 /* CONTAINER END */
+
+/* FOOTER START */
+footer {
+    font-family: 'Mirza', cursive;
+    padding: 10px;
+}
+/* FOOTER END */
   
