@@ -1,0 +1,54 @@
+/*
+// COLOR PALETTES
+//  
+//
+//
+//
+*/
+
+/* BODY START */
+body {
+    margin: 0;
+    padding: 0;
+}
+/* BODY END */
+
+/* HEADER-FOOTER START */
+header, 
+footer {
+    background-color: pink;
+    text-align: center;
+    min-width: 500px;
+}
+/* HEADER-FOOTER END */
+
+/* MAIN START */
+main {
+    display: grid;
+    grid-template-columns: 500px 5000px;
+    grid-template-rows: repeat(3, 450px);
+    grid-gap: 50px;
+    margin-top: 44px;
+    grid-auto-rows: 500px;
+    column: 250px;
+  }
+/* MAIN END */
+
+/* H2 START */
+  h2 {
+
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    text-align: left;
+    padding: 10px 0px 10px 10px;
+  }
+/* H2 END */
+
+/* CONTAINER START */
+.container {
+    min-width: 500px;
+    margin: auto;
+  }
+/* CONTAINER END */
+  
