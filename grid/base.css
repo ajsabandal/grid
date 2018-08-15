@@ -5,17 +5,20 @@
 // Light Blue: #5ea8a7
 // White: #f0eff0
 // Pink: #ff4447
+// Gray: #8D9E94
+// Smoke white: #F5F5F5
 */
 
 /* IMPORT START */
 @import url('https://fonts.googleapis.com/css?family=Lobster');
-@import url('https://fonts.googleapis.com/css?family=Mirza');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+SC');
 /* IMPORT END */
 
 /* BODY START */
 body {
     margin: 0;
     padding: 0;
+    background-color: #F5F5F5;
 }
 /* BODY END */
 
@@ -38,13 +41,12 @@ footer {
 /* MAIN START */
 main {
     display: grid;
-    grid-template-columns: 500px 5000px;
+    grid-template-columns: 500px 500px;
     grid-template-rows: repeat(3, 450px);
     grid-gap: 50px;
-    margin-top: 44px;
+    margin-top: 50px;
     grid-auto-rows: 500px;
     column: 250px;
-    background-color: #5ea8a7;
   }
 /* MAIN END */
 
@@ -55,13 +57,16 @@ main {
     letter-spacing: 0.3px;
     text-align: left;
     padding: 10px 0px 10px 10px;
+    font-family: 'Alegreya SC', serif;
+    font-size: 20px;
+    letter-spacing: 3px;
   }
 /* H2 END */
 
 /* IMAGE START */
-img {
-   width: 100%;
-   height: auto;
+.image-holder img {   
+    width: 100%;
+    height: auto;
 }
 
 /* IMAGE END */
