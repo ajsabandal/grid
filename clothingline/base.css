@@ -3,19 +3,37 @@
 //RED: 	#df1e1e
 //WHITE: #ebf1ef
 */
+@import url('https://fonts.googleapis.com/css?family=Vidaloka');
 
 body {
     padding: 0;
     margin: 0;
 }
 
+header,
+footer {
+    text-align: center;
+}
 header {
-    background-color: pink;
+    background-color:  #ebf1ef;
+    padding: 20px;
+    text-transform: uppercase;
+    font-family: 'Vidaloka', serif;
+    letter-spacing: 5px;
+    line-height: 1.6;
+
 }
 
 h1 {
     padding: 0;
     margin: 0;
-    background-color: black;
-    color: white;
+    background-color: #ffffff;
+    font-family: 'Vidaloka', serif;
+    text-align: center;
 }
+
+main {
+    display: grid;
+
+}
+
